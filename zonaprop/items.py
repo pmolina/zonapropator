@@ -7,3 +7,7 @@ from scrapy.item import Item, Field
 
 class ZonapropItem(Item):
 	link = Field()
+	precio = Field()
+	expensas = Field()
+	m2 = Field()
+	total = Field()
